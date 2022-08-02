@@ -34,6 +34,24 @@ Aplikasi ini Open Source dan tidak sepenuhnya saya buat sendiri Full Stack, namu
 
 Project ini adalah bagian dari project [CRUD](https://github.com/andikatuluspangestu/BelajarCRUDPHP) sebelumnya.
 
+### ☕ Referensi, Apresiasi dan Kontribusi
+
+- [My Wish 💞 Arvano F.Z](google.com)
+- [Bootstrap](https://getbootstrap.com/)
+- [W3School](https://w3school.com)
+- [CSS Tricks](https://csstricks.com)
+- [Google Fonts](https://fonts.google.com)
+- [Freeicons](https://freeicons.io/icon-list/iconly-essential-icons)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Colorhunt](https://colorhunt.co/)
+- [ezGIf - Image Convert](https://ezgif.com/png-to-webp/)
+- [Jsdelivr CDN](www.jsdelivr.com)
+- [Brandpalletes](https://brandpalettes.com)
+- [Iconfinder](https://www.iconfinder.com/iconsets/education-759)
+- [Codeigniter](https://www.codeigniter.com/)
+- [Font Awesome](https://fontawesome.com/)
+- Library Lainnya..
+
 ### 📜 License
 
 This application is open-sourced software licensed under the MIT license
