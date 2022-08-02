@@ -17,7 +17,7 @@ Project ini dibuat untuk memenuhi Tugas Ujian Akhir Pelatihan VSGA 2022 - DTS KO
 - Download dan Ekstrak **Source Code** ke folder htdocs ( Jika menggunakan XAMPP )
 - Buat Database di phpmyadmin dengan `db_name : sekolah`
 - Import file database yang ada di folder `/database`
-- Jalankan file nya dengan akses **localhost/php-crud/**
+- Jalankan file nya dengan akses **localhost/vsga2022/**
 
 ### 🤝 Bagaimana saya berkontribusi?
 
