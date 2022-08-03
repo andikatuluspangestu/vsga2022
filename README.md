@@ -36,7 +36,7 @@ Project ini adalah bagian dari project [CRUD](https://github.com/andikatuluspang
 
 ### ☕ Referensi, Apresiasi dan Kontribusi
 
-- [My Wish 💞 Arvano F.Z](google.com)
+- [My Wish 💞 F.Z](google.com)
 - [Bootstrap](https://getbootstrap.com/)
 - [W3School](https://w3school.com)
 - [CSS Tricks](https://csstricks.com)
