@@ -11,7 +11,8 @@
                     <tr>
                         <td>
                             <a href="../views/v_add.php" class="btn btn-primary btn-sm"><i class="bi bi-plus-circle">&nbsp;</i>Tambah Data</a>
-                            <a href="#" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-file-earmark-excel">&nbsp;</i>Uplod Excel</a>
+                            <a href="#" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-file-earmark-excel">&nbsp;</i>Upload Excel</a>
+                            <a href="../views/v_print.php" target="_blank" class="btn btn-secondary btn-sm"><i class="bi bi-printer">&nbsp;</i>Cetak Data</a>
                         </td>
                     </tr>
                 </table>
