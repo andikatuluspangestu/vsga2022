@@ -29,7 +29,7 @@ Aplikasi ini Open Source dan jika kamu ingin berkontribusi dalam pengembangan un
 - Manipulasi Data ( Tambah, Edit, Hapus )
 - Import Data from Excel to Database
 - Implementasi DataTables
-- Lihat perubahan [lebih lanjut.](../changelogs.md)
+- Lihat perubahan [lebih lanjut.](../main/changelogs.md)
 
 ### 🔖 Catatan
 
