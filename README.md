@@ -31,10 +31,6 @@ Aplikasi ini Open Source dan jika kamu ingin berkontribusi dalam pengembangan un
 - Implementasi DataTables
 - Lihat perubahan [lebih lanjut.](../main/changelogs.md)
 
-### 🔖 Catatan
-
-Project ini adalah bagian dari project [CRUD](https://github.com/andikatuluspangestu/BelajarCRUDPHP) sebelumnya.
-
 ### ☕ Referensi dan Kontribusi
 
 - [Bootstrap](https://getbootstrap.com/)
