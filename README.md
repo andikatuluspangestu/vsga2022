@@ -37,9 +37,6 @@ Project ini adalah bagian dari project [CRUD](https://github.com/andikatuluspang
 
 ### ☕ Referensi dan Kontribusi
 
-<<<<<<< HEAD
-=======
->>>>>>> 3be9cb465183818ce1526b0975840eb7e4205384
 - [Bootstrap](https://getbootstrap.com/)
 - [W3School](https://w3school.com)
 - [CSS Tricks](https://csstricks.com)
