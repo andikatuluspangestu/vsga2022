@@ -1,7 +1,5 @@
 ### **Changelogs**   
-ID : Semua perubahan penting pada proyek ini akan didokumentasikan dalam file ini.
-
-EN : All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file.
 
 > Unreleased [ v2.0.1F ] - TBD :
 - Register Page  
