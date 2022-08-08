@@ -31,6 +31,11 @@ Aplikasi ini Open Source dan jika kamu ingin berkontribusi dalam pengembangan un
 - Implementasi DataTables
 - Lihat perubahan [lebih lanjut.](../main/changelogs.md)
 
+### 📸 Preview  
+
+| ![image](https://user-images.githubusercontent.com/62005221/183346831-aa1c9497-7917-48b8-8316-8d9816c194f9.png) | ![image](https://user-images.githubusercontent.com/62005221/183346937-fb409351-c65e-4c76-a0fc-07f7854d721e.png) | ![image](https://user-images.githubusercontent.com/62005221/183347335-b02a452a-6248-480b-a354-fa3f50371699.png) |
+|-----|-----|-----|  
+
 ### ☕ Referensi dan Kontribusi
 
 - [Bootstrap](https://getbootstrap.com/)
