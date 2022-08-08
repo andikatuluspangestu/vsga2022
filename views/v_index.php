@@ -1,4 +1,10 @@
 <?php require('partials/header.php'); ?>
+<?php
+    session_start();
+    if ($_SESSION['status'] != "login") {
+        header("location: ../views/v_login.php");
+    }
+?>
 
 <body>
     <nav>
@@ -42,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="card mt-4 p-4 table-responsive">
+            <div class="card mt-4 mb-5 p-4 table-responsive">
                 <table class="table table-hover" id="myTable">
                     <thead>
                         <tr>

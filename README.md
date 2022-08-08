@@ -15,13 +15,13 @@ Project ini dibuat untuk memenuhi Tugas Ujian Akhir Pelatihan VSGA 2022 - DTS KO
 ### 💡 Cara Instalasi
 
 - Download dan Ekstrak **Source Code** ke folder htdocs ( Jika menggunakan XAMPP )
-- Buat Database di phpmyadmin dengan `db_name : sekolah`
+- Buat Database di phpmyadmin dengan nama : **sekolah**
 - Import file database yang ada di folder `/database`
 - Jalankan file nya dengan akses **localhost/vsga2022/**
 
 ### 🤝 Bagaimana saya berkontribusi?
 
-Aplikasi ini Open Source dan tidak sepenuhnya saya buat sendiri Full Stack, namun beberapa orang telah berkontribusi dalam membangun aplikasi sederhana ini, jika kamu ingin berkontribusi dalam pengembangan untuk belajar silahkan Clone Repo ini dan Pull Requests.
+Aplikasi ini Open Source dan jika kamu ingin berkontribusi dalam pengembangan untuk belajar silahkan Clone Repo ini dan Pull Requests.
 
 ### 🔍 Apa apakah yang baru?
 
@@ -29,14 +29,14 @@ Aplikasi ini Open Source dan tidak sepenuhnya saya buat sendiri Full Stack, namu
 - Manipulasi Data ( Tambah, Edit, Hapus )
 - Import Data from Excel to Database
 - Implementasi DataTables
+- Lihat perubahan [lebih lanjut.](../changelogs.md)
 
 ### 🔖 Catatan
 
 Project ini adalah bagian dari project [CRUD](https://github.com/andikatuluspangestu/BelajarCRUDPHP) sebelumnya.
 
-### ☕ Referensi, Apresiasi dan Kontribusi
+### ☕ Referensi dan Kontribusi
 
-- [My Wish 💞 Arvano F.Z](google.com)
 - [Bootstrap](https://getbootstrap.com/)
 - [W3School](https://w3school.com)
 - [CSS Tricks](https://csstricks.com)
@@ -50,6 +50,7 @@ Project ini adalah bagian dari project [CRUD](https://github.com/andikatuluspang
 - [Iconfinder](https://www.iconfinder.com/iconsets/education-759)
 - [Codeigniter](https://www.codeigniter.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [KeepChangelogs](https://keepachangelog.com/id-ID/1.0.0/)
 - Library Lainnya..
 
 ### 📜 License

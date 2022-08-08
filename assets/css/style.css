@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 body {
   background-image: linear-gradient(
     83.2deg,
@@ -8,4 +10,93 @@ body {
 
 .navbar-nav .nav-item a.active {
   font-weight: bolder;
+}
+
+#login-page {
+  background-color: #0278ae;
+  font-family: "Lato", sans-serif;
+}
+
+.login-content {
+  max-width: 450px;
+  width: 100%;
+  height: 550px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 47%;
+  margin-left: -200px;
+  margin-top: -286px;
+  border-radius: 8px;
+}
+
+.logo {
+  width: 128px;
+  height: 128px;
+  margin: 5px;
+}
+
+.text-logo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.login-content .form-control {
+  width: 18rem;
+  height: 3rem;
+  left: 65px;
+  position: relative;
+  border-radius: 5px;
+  background-color: #ccffee;
+}
+
+#btn-login {
+  font-size: 22px;
+  background-color: #0278ae;
+  border: none;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 5px;
+}
+
+#tn-login:hover {
+  background-color: blue;
+}
+
+.nomember {
+  background-color: #e4dede;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.nomember a {
+  text-decoration: none;
+}
+
+.forgot {
+  position: relative;
+  right: -20%;
+}
+
+.forgot a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(158, 163, 240);
+}
+
+/*support google chrome*/
+.login-content .form-control::-webkit-input-placeholder {
+  color: #00000036;
+}
+
+/*support mozilla*/
+.login-content .form-control:-moz-input-placeholder {
+  color: red;
+}
+
+/*support internet explorer*/
+.login-content .form-control:-ms-input-placeholder {
+  color: red;
 }
