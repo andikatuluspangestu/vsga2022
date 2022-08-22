@@ -16,5 +16,5 @@ $proses = mysqli_query($koneksi, $query);
 if ($proses) {
     header("Location: ../views/v_index.php");
 } else {
-    echo "Data tidak berhasil diubah";
+    echo "Data tidak berhasil dihapus";
 }
