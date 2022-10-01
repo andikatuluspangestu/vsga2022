@@ -23,7 +23,7 @@ Project ini dibuat untuk memenuhi Tugas Ujian Akhir Pelatihan VSGA 2022 - DTS KO
 
 Aplikasi ini Open Source dan jika kamu ingin berkontribusi dalam pengembangan untuk belajar silahkan Clone Repo ini dan Pull Requests.
 
-### 🔍 Apa apakah yang baru?
+### 🔍 Apa yang baru?
 
 - Dashboard lebih di Sederhana-kan
 - Manipulasi Data ( Tambah, Edit, Hapus )
