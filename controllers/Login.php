@@ -6,26 +6,26 @@ session_start();
 // Koneksi ke database
 require_once('../config/koneksi.php');
 
-// Deklarasi variable penampung form
-$username = $_POST['username'];
-$password = $_POST['password'];  
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-// Query seleksi data
-$query = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-// Jalankan query
-$proses = mysqli_query($koneksi, $query);
+    $sql = "SELECT * FROM users WHERE username='$username'";
+    $result = $koneksi->query($sql);
 
-// Menghitung data yang terseleksi
-$cek = mysqli_num_rows($proses);
-
-// Cek validasi
-if($cek >= 1){
-    header("location: ../views/v_login.php");
-} else {
-    $_SESSION['username'] = $username;
-    $_SESSION['status'] = "login";
-    header("location: ../views/v_index.php");
+    if ($result->num_rows == 1) {
+        $row = $result->fetch_assoc();
+        if (password_verify($password, $row['password'])) {
+            $_SESSION['username'] = $username;
+            $_SESSION['status']   = "login";
+            header("location: ../views/v_index.php");
+        } else {
+            echo "Password salah.";
+        }
+    } else {
+        // Kirimkan pesan error ke halaman login
+        $_SESSION['message'] = "Username tidak ditemukan.";
+        header("location: ../views/v_login.php");
+    }
 }
-
-?>
