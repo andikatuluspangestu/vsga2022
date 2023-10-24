@@ -16,6 +16,8 @@ $proses = mysqli_query($koneksi, $query);
 
 // Cek data tersimpan atau tidak
 if ($proses) {
+    // Tambahkan pesan berhasil di session
+    $_SESSION['sukses'] = "Data berhasil ditambahkan";
     header("Location: ../views/v_index.php");
 } else {
     echo "Data tidak berhasil ditambahkan";

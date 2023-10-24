@@ -1,9 +1,9 @@
 <?php require('partials/header.php'); ?>
 <?php
-    session_start();
-    if ($_SESSION['status'] != "login") {
-        header("location: ../views/v_login.php");
-    }
+session_start();
+if ($_SESSION['status'] != "login") {
+    header("location: ../views/v_login.php");
+}
 ?>
 
 <body>
@@ -95,6 +95,16 @@
     </main>
 
     <?php include('partials/footer.php'); ?>
+
+    <!-- jika ada session sukses maka tampilkan sweet alert dengan pesan yang telah di set
+    di dalam session sukses  -->
+    <?php if (@$_SESSION['sukses']) { ?>
+        <script>
+            swal("Good job!", "<?php echo $_SESSION['sukses']; ?>", "success");
+        </script>
+        <!-- jangan lupa untuk menambahkan unset agar sweet alert tidak muncul lagi saat di refresh -->
+    <?php unset($_SESSION['sukses']);
+    } ?>
 
 </body>
 
