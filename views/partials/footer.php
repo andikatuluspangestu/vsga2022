@@ -4,7 +4,6 @@
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="../assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
     <script src="../assets/vendor/datatables/js/dataTables.bootstrap5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <!-- Javascript Datatables -->
     <script>
