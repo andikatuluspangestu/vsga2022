@@ -4,7 +4,7 @@
     $host   = "localhost";
     $user   = "root";
     $pass   = "";
-    $db     = "sekolah";
+    $db     = "db_sekolah";
 
     // Query untuk menghubungkan ke database
     $koneksi = mysqli_connect($host, $user, $pass, $db);
