@@ -30,6 +30,11 @@ body {
   border-radius: 8px;
 }
 
+#register-page {
+  background-color: #0278ae;
+  font-family: "Lato", sans-serif;
+}
+
 .logo {
   width: 128px;
   height: 128px;
